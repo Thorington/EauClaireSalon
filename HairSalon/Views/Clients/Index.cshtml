@@ -1,4 +1,4 @@
-@* @{
+@{
   Layout = "_Layout";
 }
 
@@ -14,13 +14,13 @@
 
 @foreach (Client client in Model)
 {
-  <li>@Html.ActionLink($"{client.Name}", "Details", new { id = client.ClientId }) | @client.Stylist.Name | </li>
+  <li>@Html.ActionLink($"{client.Description}", "Details", new { id = client.ClientId }) | @client.Stylist.Name | </li>
   <ul>
     <li>@client.Description</li>
   </ul>
 }
 <br>
 <p>@Html.ActionLink("Add new client", "Create")</p>
-<p>@Html.ActionLink("Back to Home", "Index","Home")</p> *@
+<p>@Html.ActionLink("Back to Home", "Index","Home")</p>
 
  
