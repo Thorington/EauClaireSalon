@@ -3,21 +3,28 @@ div#footer {
   bottom:0px;
   left:0px;
   width:100%;
-  color:rgb(255, 255, 255);
-  background:rgb(247, 105, 58);
+  color:rgb(143, 123, 245);
+  background:rgb(247, 252, 237);
   padding:8px;
+  border-color: rgb(219, 197, 248);
+  border-style: dotted;
+  border-width: 5px;
 }
 
 div#header {
   position:fixed;
   top:0px;
   left:0px;
+  text-align: center;
   width:100%;
-  color:rgb(255, 255, 255);
-  background:rgb(247, 105, 58);
+  color:rgb(143, 123, 245);
+  background:rgb(247, 252, 237);
   padding:8px;
-  font-family: Snell Roundhand, cursive;
+  font-family: 'MuseoModerno', cursive;
   font-size: 75px;
+  border-color: rgb(219, 197, 248);
+  border-style: dotted;
+  border-width: 5px;
 }
 
 h1 {
@@ -27,39 +34,40 @@ h1 {
 }
 
 h2 {
-  color: rgb(247, 105, 58);
+  color: rgb(143, 123, 245);
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 h3 {
-  color: rgb(247, 105, 58);
+  color: rgb(143, 123, 245);
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 a:link {
-  color: rgb(31, 107, 124);
+  color: rgb(143, 123, 245);
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(31, 107, 124);
+  color: rgb(143, 123, 245);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(253, 178, 153);
+  color: rgb(250, 190, 190);
   text-decoration: none;
 }
 
 a:active {
-  color: rgb(255, 187, 187);
+  color: rgb(143, 123, 245);
   text-decoration: none;
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("../img/background.jpg");
 }
 
 main {
@@ -67,11 +75,20 @@ main {
   margin-left: 10%;
   margin-right: 10%;
   text-align: left;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(247, 252, 237);
   padding: 35px;
-  border-radius: 10px;
-  border-color: rgb(247, 105, 58);
-  border-style: double;
-  border-width: 10px;
+  border-radius: 25px;
+  border-color: rgb(219, 197, 248);
+  border-style: dotted;
+  border-width: 5px;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-color: rgb(219, 197, 248);
+  border-style: solid;
+  border-width: 2px;
+  color: black;
 }

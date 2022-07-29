@@ -9,6 +9,8 @@
 @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
 @using (Html.BeginForm())
 {
-  <input type="submit" value="Delete" />
+  <br>
+  <input type="submit" value="Delete" class="btn" />
 }
-@Html.ActionLink("Back to List", "Index")
+<br>
+<p>@Html.ActionLink("🤍 Back to stylists", "Index")</p>

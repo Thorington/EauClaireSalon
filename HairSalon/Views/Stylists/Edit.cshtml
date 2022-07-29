@@ -12,10 +12,10 @@
 {
     <p>@Html.HiddenFor(model => model.StylistId)</p>
     <p>@Html.LabelFor(model => model.Name)</p>
-    <p>@Html.EditorFor(model => model.Name)</p>
+    <p>@Html.EditorFor(model => model.Name, new { @class = "form-control", required="required", style="width: 300px;"})</p>
 
 
-    <input type="submit" value="Save" />
+    <input type="submit" value="Save" class="btn"/>
 }
 <br>
-<p>@Html.ActionLink("Back to stylists", "Index")</p>
+<p>@Html.ActionLink("🤍 Back to stylists", "Index")</p>
