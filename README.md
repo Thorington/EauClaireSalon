@@ -37,6 +37,8 @@ The home page welcomes Claire (no relation) to her salon management portal. Clai
 
 * Navigate to the __HairSalon__ directory in your terminal and type _$ dotnet restore_ and then _$ dotnet run_ 
 
+* A note to whoever is grading this: The .sql file I exported included both the structure and some filler data, on purpose
+
 
 ## Known Bugs
 
