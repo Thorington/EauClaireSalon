@@ -1,4 +1,4 @@
-@* @{
+@{
   Layout = "_Layout";
 }
 
@@ -9,20 +9,29 @@
 @using (Html.BeginForm())
 {
   <p>
-  @Html.LabelFor(model => model.Name)
-  @Html.TextBoxFor(model => model.Name)
-  </p>
-  <p>
-  @Html.LabelFor(model => model.Description)
-  @Html.TextBoxFor(model => model.Description)
-  </p>
-  <p>
   @Html.LabelFor(model => model.Stylist)
   @Html.DropDownList("StylistId")
   </p>
-
-  <input type="submit" value="Add new client" class="btn btn-primary" />
+  <p>
+  Name
+  @Html.TextBoxFor(model => model.Name, new { @class = "form-control", placeholder="Required", required="required", style="width: 300px;"})
+  </p>
+  <p>
+  Phone
+  @Html.TextBoxFor(model => model.Number, new { @class = "form-control", placeholder="Required", required="required", style="width: 300px;"})
+  </p>
+  <p>
+  Email
+  @Html.TextBoxFor(model => model.Email, new { @class = "form-control", placeholder="Required", required="required",style="width: 300px;"})
+  </p>
+  <p>
+  Referred by
+  @Html.TextBoxFor(model => model.ReferredBy, new { @class = "form-control", style="width: 300px;"})
+  </p>
+  
+  <br>
+  <input type="submit" value="Save client" class="btn btn-primary" />
 }
 <br>
 <p>@Html.ActionLink("Show all clients", "Index")</p>
-<p>@Html.ActionLink("Back to Home", "Index","Home")</p> *@
+<p>@Html.ActionLink("Back to Home", "Index","Home")</p>

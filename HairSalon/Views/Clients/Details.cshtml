@@ -1,13 +1,20 @@
-@* @{
+@{
   Layout = "_Layout";
 }
 
 @model HairSalon.Models.Client
 
-<h2>Client Details</h2>
+<h2>@Html.DisplayFor(model => model.Name)</h2>
+<h3>Stylist: @Html.DisplayFor(model => model.Stylist.Name)</h3>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
+<h4>Client information</h4>
+<br>
+<p>Phone: @Html.DisplayFor(model => model.Number)</p>
+<p>Email: @Html.DisplayFor(model => model.Email)</p>
+<p>Referred by: @Html.DisplayFor(model => model.ReferredBy)</p>
+ 
 
+<br>
 <p>@Html.ActionLink("Back to clients", "Index")</p>
 <p>@Html.ActionLink("Edit client", "Edit", new { id = Model.ClientId })</p>
-<p>@Html.ActionLink("Delete client", "Delete", new { id = Model.ClientId })</p> *@
+<p>@Html.ActionLink("Delete client", "Delete", new { id = Model.ClientId })</p>
