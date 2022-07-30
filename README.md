@@ -23,7 +23,7 @@ The home page welcomes Claire (no relation) to her salon management portal. Clai
 ## Setup/Installation Requirements
 
 * Clone repository to desktop
-* To run this program, you will need to import the _claire_thorington.sql_ file into SQL Workbench and create a new schema named _claire_thorington_
+* To run this program, you will need to import the _claire_thorington.sql_ file into MySQL Workbench and create a new schema named _claire_thorington_
 * Next, create an _appsettings.json_ file in the __HairSalon__ directory and copy in the following*:
 
 ```
@@ -35,12 +35,12 @@ The home page welcomes Claire (no relation) to her salon management portal. Clai
 ```
 *You may not have to do this, because I accidentally pushed my _appsettings.json_ file to the repo
 
-* Navigate to the __HairSalon__ folder in your terminal and type _$ dotnet restore_ and then _$ dotnet run_ 
+* Navigate to the __HairSalon__ directory in your terminal and type _$ dotnet restore_ and then _$ dotnet run_ 
 
 
 ## Known Bugs
 
-* No known bugs!
+* Still trying to show a list of clients on each stylist's page
 
 
 ## License
