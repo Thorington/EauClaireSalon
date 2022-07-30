@@ -20,6 +20,8 @@
 
 The home page welcomes Claire (no relation) to her salon management portal. Claire can see a list of stylists working at the salon, and for each stylist, add clients who see that stylist. The stylists have specialties, so each client can only see a single stylist.
 
+![a picture of the program's schema](HairSalon/wwwroot/img/schema.jpg)
+
 ## Setup/Installation Requirements
 
 * Clone repository to desktop
