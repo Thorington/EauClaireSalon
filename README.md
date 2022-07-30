@@ -1,5 +1,5 @@
 # Independent Project #9: Eau Claire's Salon
-![a picture of the Salon's header](/HairSalon/wwwroot/img/header.jpg)
+![a picture of the Salon's header](HairSalon/wwwroot/img/header.jpg)
 
 #### Contributors: _**Claire Thorington**_
 
