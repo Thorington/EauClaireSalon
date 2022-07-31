@@ -35,7 +35,6 @@ The home page welcomes Claire (no relation) to her salon management portal. Clai
   }
 }
 ```
-*You may not have to do this, because I accidentally pushed my _appsettings.json_ file to the repo
 
 * Navigate to the __HairSalon__ directory in your terminal and type _$ dotnet restore_ and then _$ dotnet run_ 
 
