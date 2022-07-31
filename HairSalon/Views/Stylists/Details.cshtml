@@ -9,9 +9,11 @@
 <h5>Email: @Html.DisplayFor(model => model.Email)</h5>
 <hr />
 <h3>Clients:</h3>
+
+
 <br>
 
-  <p><a href='/Clients/Create'>🤍 Add new client</a></p>
+  <p>@Html.ActionLink("🤍 Add new client", "Create", "Clients")</p>
   <p>@Html.ActionLink("🤍 Edit stylist", "Edit", new { id = Model.StylistId })</p>
   <p>@Html.ActionLink("🤍 Delete stylist", "Delete", new { id = Model.StylistId })</p>
   <p>@Html.ActionLink("🤍 Back to stylists", "Index")</p>
